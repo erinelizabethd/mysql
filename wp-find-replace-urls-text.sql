@@ -1,17 +1,5 @@
 # SQL FIND AND REPLACE FOR WORDPRESS
 
-/*
-
-!!!!!! IMPORTANT NOTE !!!!!! 
-
-If you're doing a find and replace for URLS:
-
-- Leave off the trailing slash.
-- Do a find and replace for both http and https
-- Be cognizant of if the site is using www vs no www
-
-*/
-
 
 # WP CORE - LINKS
 UPDATE wp_options SET option_value = replace(option_value, 'OLD_TEXT', 'NEW_TEXT') WHERE option_name = 'home' OR option_name = 'siteurl';
