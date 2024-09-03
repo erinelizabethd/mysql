@@ -1,2 +1,2 @@
-# mysql-snippets
-MySQL code snippets
+# MySQL Code Snippets
+Snippets for MySQL
